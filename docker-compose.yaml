@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  jupyter:
+    image: hskaailabcv/image:1.0
+    volumes:
+      - ./notebooks:/notebooks
+    ports:
+      - "8888:8888"
+    networks:
+      - tf
+
+networks:
+  tf:
+    driver: bridge
