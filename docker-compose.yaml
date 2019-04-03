@@ -1,14 +1,25 @@
-version: '2'
+version: '2.3'
 
 services:
   jupyter:
-    image: hskaailabcv/image:1.0
+    image: hskaailabcv/image:2.0
     volumes:
       - ./notebooks:/notebooks
     ports:
       - "8888:8888"
     networks:
       - tf
+    runtime: nvidia
+
+  tensorboard:
+    image: hskaailabcv/image:2.0
+    volumes:
+      - ./notebooks:/notebooks
+    ports:
+      - "6006:6006"
+    networks:
+      - tf
+    command: tensorboard --logdir=/notebooks/tf-summary
 
 networks:
   tf:

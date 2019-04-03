@@ -17,3 +17,4 @@ Repository für das Computer Vision Modul des AI-Labors an der Hochschule Karlsr
     docker-compose up
     ```
 - Jupyter Notebook erreichbar unter [http://localhost:8888](http://localhost:8888)
+- TensorBoard erreichbar unter [http://localhost:6006](http://localhost:6006)
