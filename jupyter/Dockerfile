@@ -22,7 +22,7 @@ RUN apt-get update && apt-get install -y \
   rm -rf /var/lib/apt/lists/*
 
 RUN pip --no-cache-dir install \
-    ipykernel scipy scikit-image jupyter matplotlib pandas tensorboard numpy && \
+    ipykernel scipy scikit-image jupyter matplotlib pandas numpy && \
     python -m ipykernel.kernelspec
 
 COPY ./config/jupyter_notebook_config.py /root/.jupyter/
