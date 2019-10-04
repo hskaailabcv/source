@@ -1,16 +1,15 @@
-version: '2.4'
+version: '2'
 
 services:
   jupyter:
-    build: ./jupyter
+    image: hskaailabcv/image:1.0
     volumes:
       - ./notebooks:/notebooks
     ports:
       - "8888:8888"
     networks:
       - tf
-    runtime: nvidia
 
 networks:
   tf:
-    driver: bridge
+    driver: bridge 
