@@ -85,6 +85,10 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
+   "execution_count": 3,
+   "metadata": {},
+=======
    "execution_count": null,
    "metadata": {
     "ExecuteTime": {
@@ -92,6 +96,7 @@
      "start_time": "2019-10-17T19:03:49.420290Z"
     }
    },
+>>>>>>> 29a7c5b3b5f5f76f5372a40febb1e01d53d8b44c
    "outputs": [],
    "source": [
     "import numpy as np\n",
@@ -616,6 +621,9 @@
    "name": "python",
    "nbconvert_exporter": "python",
    "pygments_lexer": "ipython3",
+<<<<<<< HEAD
+   "version": "3.7.4"
+=======
    "version": "3.6.8"
   },
   "latex_envs": {
@@ -664,6 +672,7 @@
     "_Feature"
    ],
    "window_display": false
+>>>>>>> 29a7c5b3b5f5f76f5372a40febb1e01d53d8b44c
   }
  },
  "nbformat": 4,
