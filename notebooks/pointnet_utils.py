@@ -1,11 +1,10 @@
-from keras import backend as K
-from keras import backend as K
-from keras.layers import Input, Dropout, Dense, Dot, Lambda, \
+from tensorflow.keras import backend as K
+from tensorflow.keras.layers import Input, Dropout, Dense, Dot, Lambda, \
     Reshape, concatenate, GlobalMaxPooling1D, BatchNormalization, \
     Activation, Conv1D
-from keras.initializers import Constant
-from keras.models import Model
-from keras.regularizers import Regularizer
+from tensorflow.keras.initializers import Constant
+from tensorflow.keras.models import Model
+from tensorflow.keras.regularizers import Regularizer
 
 import numpy as np
 
