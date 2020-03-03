@@ -1,20 +1,20 @@
 # Hochschule Karlsruhe: AI Labor
 # Modul: Computer Vision
 
-Repository für das Computer Vision Modul des AI-Labors an der Hochschule Karlsruhe.
+Repository for the Computer Vision part of the AI-Lab at HSKA.
 
-## Konfiguration
-- Python Version: 3.6
-- TensorFlow Version: 1.12.0
+## Configuration:
+- Python version: 3.6
+- TensorFlow version: 2.1.0
 
-## Docker Umgebung
-- Repo clonen
-- Umgebung starten
+## Environment setup
+- clone repository
+- run docker environment
     
     ```sh
     git clone https://github.com/hskaailabcv/source.git
     cd source
     docker-compose up
     ```
-- Jupyter Notebook erreichbar unter [http://localhost:8888](http://localhost:8888)
-- TensorBoard erreichbar unter [http://localhost:6006](http://localhost:6006)
+- Jupyter Notebook can be found at  [http://localhost:8888](http://localhost:8888)
+- MLflow UI can be found at [http://localhost:5000](http://localhost:5000)
